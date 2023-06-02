@@ -956,7 +956,7 @@ body {
   height: 40px;
   color: #fff;
   position: absolute;
-  transform: translate(180px, -30px);
+  transform: translate(175px, -30px);
   cursor: pointer;
 }
 
@@ -1121,6 +1121,9 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  .services-items, .pricing-item {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -1129,6 +1132,9 @@ body {
   }
   .center-emails {
     flex-direction: column;
+  }
+  .footer-email-icon {
+    transform: translate(180px, -30px);
   }
 }
 
