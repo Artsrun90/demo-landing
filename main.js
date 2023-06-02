@@ -72,3 +72,14 @@ window.onscroll = function (e) {
     document.getElementById('page-up').style.display = "flex";
   }
 }
+
+function mobileMenu () {
+  const button = document.getElementById("nav-icon-mobile");
+  const menu = document.getElementById("mobile-menu");
+  if (!menu.style.top || menu.style.top == "-95px") {
+    menu.style.top = "95px";    
+  } else {
+    menu.style.top = "-95px";
+  }
+  button.classList.toggle("open");
+}

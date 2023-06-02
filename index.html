@@ -20,49 +20,65 @@
                 </div>
                 <div class="main-menu">
                     <ul class="menu-ul">
-                        <li><a class="scroll-into" data-target="nav" href="3">Home</a></li>
-                        <li><a class="scroll-into" data-target="services" href="3">Services</a></li>
-                        <li><a class="scroll-into" data-target="pricing" href="3">Pricing</a></li>
-                        <li><a class="scroll-into" data-target="team" href="3">Team</a></li>
-                        <li><a class="scroll-into" data-target="contacts" href="">Contact</a></li>
+                        <li><a class="scroll-into" data-target="nav" href="#">Home</a></li>
+                        <li><a class="scroll-into" data-target="services" href="#">Services</a></li>
+                        <li><a class="scroll-into" data-target="pricing" href="#">Pricing</a></li>
+                        <li><a class="scroll-into" data-target="team" href="#">Team</a></li>
+                        <li><a class="scroll-into" data-target="contacts" href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>            
             <div class="right-nav">
-                <div class="right-menu" onclick="openNav()">
-                    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                <div class="desktop-right-nav">
+                    <div class="right-menu" onclick="openNav()">
+                        <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                    </div>
+                    <div id="mySidenav" class="sidenav">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></a>
+                      <div class="sidenav-content">
+                          <img src="images/logo-black.svg" alt="">
+                          <p class="mt-20" style="color: #818181;">Lorem ipsum dolor sit amet adipisicing elit. Sapiente fuga nisi rerum iusto intro.</p>
+                          <div class="sidenav-links mt-20">
+                            <h2>Quick Links</h2>
+                            <a href="#" class="mt-10">About Us</a>
+                            <a href="#">Our Team</a>
+                            <a href="#">Latest News</a>
+                            <a href="#">Contact Us</a>
+                          </div>
+                          <h2 class="mt-20">Follow Us On</h2>
+                          <div class="link-icons mt-20">
+                              <div class="link-icon">
+                                  <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                              </div>
+                              <div class="link-icon">
+                                  <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                              </div>
+                              <div class="link-icon">
+                                  <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                              </div>
+                              <div class="link-icon">
+                                  <a href="https://youtube.com" target="_blank"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
                 </div>
-                <div id="mySidenav" class="sidenav">
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></a>
-                  <div class="sidenav-content">
-                      <img src="images/logo-black.svg" alt="">
-                      <p class="mt-20" style="color: #818181;">Lorem ipsum dolor sit amet adipisicing elit. Sapiente fuga nisi rerum iusto intro.</p>
-                      <div class="sidenav-links mt-20">
-                        <h2>Quick Links</h2>
-                        <a href="#" class="mt-10">About Us</a>
-                        <a href="#">Our Team</a>
-                        <a href="#">Latest News</a>
-                        <a href="#">Contact Us</a>
-                      </div>
-                      <h2 class="mt-20">Follow Us On</h2>
-                      <div class="link-icons mt-20">
-                          <div class="link-icon">
-                              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
-                          </div>
-                          <div class="link-icon">
-                              <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-                          </div>
-                          <div class="link-icon">
-                              <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                          </div>
-                          <div class="link-icon">
-                              <a href="https://youtube.com" target="_blank"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a>
-                          </div>
-                      </div>
-                  </div>
+                <div class="nav-icon-mobile" id="nav-icon-mobile" onclick="mobileMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
                 </div>
             </div> 
         </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="menu-ul for-mobile">
+            <li><a class="scroll-into" data-target="nav" href="#">Home</a></li>
+            <li><a class="scroll-into" data-target="services" href="#">Services</a></li>
+            <li><a class="scroll-into" data-target="pricing" href="#">Pricing</a></li>
+            <li><a class="scroll-into" data-target="team" href="#">Team</a></li>
+            <li><a class="scroll-into" data-target="contacts" href="#">Contact</a></li>
+        </ul>
     </div>
 
     <div class="get-started" id="get-started">      
