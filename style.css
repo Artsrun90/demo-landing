@@ -1123,3 +1123,12 @@ body {
   }
 }
 
+@media screen and (max-width: 530px) {
+  .contact-form {
+    width: 96%;
+  }
+  .center-emails {
+    flex-direction: column;
+  }
+}
+
